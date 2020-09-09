@@ -7,10 +7,10 @@ Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, altered_words))
   File "/home/runner/work/c03_ch2_ecriture-LaurentNg/c03_ch2_ecriture-LaurentNg/exercice.py", line 7, in majuscule
-    lettre += mot + 32
+    lettre += 32
 TypeError: must be str, not int
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
 
 FAILED (errors=1)
